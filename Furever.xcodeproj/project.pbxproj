@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB165223269401E100E03F76 /* FureverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB165222269401E100E03F76 /* FureverApp.swift */; };
+		CB165225269401E100E03F76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB165224269401E100E03F76 /* ContentView.swift */; };
+		CB165227269401E600E03F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB165226269401E600E03F76 /* Assets.xcassets */; };
+		CB16522A269401E600E03F76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB165229269401E600E03F76 /* Preview Assets.xcassets */; };
+		CB165234269401E600E03F76 /* FureverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB165233269401E600E03F76 /* FureverTests.swift */; };
+		CB16523E269401E600E03F76 /* FureverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16523D269401E600E03F76 /* FureverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB165230269401E600E03F76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB165217269401E100E03F76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB16521E269401E100E03F76;
+			remoteInfo = Furever;
+		};
+		CB16523A269401E600E03F76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB165217269401E100E03F76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB16521E269401E100E03F76;
+			remoteInfo = Furever;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB16521F269401E100E03F76 /* Furever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Furever.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB165222269401E100E03F76 /* FureverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FureverApp.swift; sourceTree = "<group>"; };
+		CB165224269401E100E03F76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB165226269401E600E03F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB165229269401E600E03F76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB16522F269401E600E03F76 /* FureverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FureverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB165233269401E600E03F76 /* FureverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FureverTests.swift; sourceTree = "<group>"; };
+		CB165239269401E600E03F76 /* FureverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FureverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB16523D269401E600E03F76 /* FureverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FureverUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB16521C269401E100E03F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB16522C269401E600E03F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB165236269401E600E03F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB165216269401E100E03F76 = {
+			isa = PBXGroup;
+			children = (
+				CB165221269401E100E03F76 /* Furever */,
+				CB165232269401E600E03F76 /* FureverTests */,
+				CB16523C269401E600E03F76 /* FureverUITests */,
+				CB165220269401E100E03F76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB165220269401E100E03F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB16521F269401E100E03F76 /* Furever.app */,
+				CB16522F269401E600E03F76 /* FureverTests.xctest */,
+				CB165239269401E600E03F76 /* FureverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB165221269401E100E03F76 /* Furever */ = {
+			isa = PBXGroup;
+			children = (
+				CB165222269401E100E03F76 /* FureverApp.swift */,
+				CB165224269401E100E03F76 /* ContentView.swift */,
+				CB165226269401E600E03F76 /* Assets.xcassets */,
+				CB165228269401E600E03F76 /* Preview Content */,
+			);
+			path = Furever;
+			sourceTree = "<group>";
+		};
+		CB165228269401E600E03F76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB165229269401E600E03F76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB165232269401E600E03F76 /* FureverTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB165233269401E600E03F76 /* FureverTests.swift */,
+			);
+			path = FureverTests;
+			sourceTree = "<group>";
+		};
+		CB16523C269401E600E03F76 /* FureverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB16523D269401E600E03F76 /* FureverUITests.swift */,
+			);
+			path = FureverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB16521E269401E100E03F76 /* Furever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB165241269401E600E03F76 /* Build configuration list for PBXNativeTarget "Furever" */;
+			buildPhases = (
+				CB16521B269401E100E03F76 /* Sources */,
+				CB16521C269401E100E03F76 /* Frameworks */,
+				CB16521D269401E100E03F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Furever;
+			productName = Furever;
+			productReference = CB16521F269401E100E03F76 /* Furever.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB16522E269401E600E03F76 /* FureverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB165244269401E600E03F76 /* Build configuration list for PBXNativeTarget "FureverTests" */;
+			buildPhases = (
+				CB16522B269401E600E03F76 /* Sources */,
+				CB16522C269401E600E03F76 /* Frameworks */,
+				CB16522D269401E600E03F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB165231269401E600E03F76 /* PBXTargetDependency */,
+			);
+			name = FureverTests;
+			productName = FureverTests;
+			productReference = CB16522F269401E600E03F76 /* FureverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB165238269401E600E03F76 /* FureverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB165247269401E600E03F76 /* Build configuration list for PBXNativeTarget "FureverUITests" */;
+			buildPhases = (
+				CB165235269401E600E03F76 /* Sources */,
+				CB165236269401E600E03F76 /* Frameworks */,
+				CB165237269401E600E03F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB16523B269401E600E03F76 /* PBXTargetDependency */,
+			);
+			name = FureverUITests;
+			productName = FureverUITests;
+			productReference = CB165239269401E600E03F76 /* FureverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB165217269401E100E03F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CB16521E269401E100E03F76 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CB16522E269401E600E03F76 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CB16521E269401E100E03F76;
+					};
+					CB165238269401E600E03F76 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CB16521E269401E100E03F76;
+					};
+				};
+			};
+			buildConfigurationList = CB16521A269401E100E03F76 /* Build configuration list for PBXProject "Furever" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB165216269401E100E03F76;
+			productRefGroup = CB165220269401E100E03F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB16521E269401E100E03F76 /* Furever */,
+				CB16522E269401E600E03F76 /* FureverTests */,
+				CB165238269401E600E03F76 /* FureverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB16521D269401E100E03F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB16522A269401E600E03F76 /* Preview Assets.xcassets in Resources */,
+				CB165227269401E600E03F76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB16522D269401E600E03F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB165237269401E600E03F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB16521B269401E100E03F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB165225269401E100E03F76 /* ContentView.swift in Sources */,
+				CB165223269401E100E03F76 /* FureverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB16522B269401E600E03F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB165234269401E600E03F76 /* FureverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB165235269401E600E03F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB16523E269401E600E03F76 /* FureverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB165231269401E600E03F76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB16521E269401E100E03F76 /* Furever */;
+			targetProxy = CB165230269401E600E03F76 /* PBXContainerItemProxy */;
+		};
+		CB16523B269401E600E03F76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB16521E269401E100E03F76 /* Furever */;
+			targetProxy = CB16523A269401E600E03F76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB16523F269401E600E03F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB165240269401E600E03F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB165242269401E600E03F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Furever/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malone.Furever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB165243269401E600E03F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Furever/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malone.Furever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB165245269401E600E03F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malone.FureverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Furever.app/Furever";
+			};
+			name = Debug;
+		};
+		CB165246269401E600E03F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malone.FureverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Furever.app/Furever";
+			};
+			name = Release;
+		};
+		CB165248269401E600E03F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malone.FureverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Furever;
+			};
+			name = Debug;
+		};
+		CB165249269401E600E03F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malone.FureverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Furever;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB16521A269401E100E03F76 /* Build configuration list for PBXProject "Furever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB16523F269401E600E03F76 /* Debug */,
+				CB165240269401E600E03F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB165241269401E600E03F76 /* Build configuration list for PBXNativeTarget "Furever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB165242269401E600E03F76 /* Debug */,
+				CB165243269401E600E03F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB165244269401E600E03F76 /* Build configuration list for PBXNativeTarget "FureverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB165245269401E600E03F76 /* Debug */,
+				CB165246269401E600E03F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB165247269401E600E03F76 /* Build configuration list for PBXNativeTarget "FureverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB165248269401E600E03F76 /* Debug */,
+				CB165249269401E600E03F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB165217269401E100E03F76 /* Project object */;
+}
