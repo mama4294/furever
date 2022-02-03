@@ -13,6 +13,7 @@
 		CB16522A269401E600E03F76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB165229269401E600E03F76 /* Preview Assets.xcassets */; };
 		CB165234269401E600E03F76 /* FureverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB165233269401E600E03F76 /* FureverTests.swift */; };
 		CB16523E269401E600E03F76 /* FureverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16523D269401E600E03F76 /* FureverUITests.swift */; };
+		CB16524B2694036F00E03F76 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16524A2694036F00E03F76 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		CB165233269401E600E03F76 /* FureverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FureverTests.swift; sourceTree = "<group>"; };
 		CB165239269401E600E03F76 /* FureverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FureverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB16523D269401E600E03F76 /* FureverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FureverUITests.swift; sourceTree = "<group>"; };
+		CB16524A2694036F00E03F76 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = "../../../../../Downloads/swiftui.builds-master/tinder-swipe/TinderClone/Card.swift"; sourceTree = "<group>"; };
+		CBC2CDFD2695FAA100226586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +95,9 @@
 		CB165221269401E100E03F76 /* Furever */ = {
 			isa = PBXGroup;
 			children = (
+				CBC2CDFD2695FAA100226586 /* Info.plist */,
 				CB165222269401E100E03F76 /* FureverApp.swift */,
+				CB16524A2694036F00E03F76 /* Card.swift */,
 				CB165224269401E100E03F76 /* ContentView.swift */,
 				CB165226269401E600E03F76 /* Assets.xcassets */,
 				CB165228269401E600E03F76 /* Preview Content */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB165225269401E100E03F76 /* ContentView.swift in Sources */,
+				CB16524B2694036F00E03F76 /* Card.swift in Sources */,
 				CB165223269401E100E03F76 /* FureverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,11 +421,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Furever/Preview Content\"";
+				DEVELOPMENT_TEAM = P67LNG4W3R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Furever/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Furever;
+				INFOPLIST_KEY_CFBundleName = Furever;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -432,7 +444,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +456,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Furever/Preview Content\"";
+				DEVELOPMENT_TEAM = P67LNG4W3R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Furever/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Furever;
+				INFOPLIST_KEY_CFBundleName = Furever;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -461,7 +479,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
